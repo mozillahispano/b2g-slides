@@ -1502,7 +1502,7 @@ smilTimeContainer_generic.prototype.selectIndex = function(index) {
       this.timeNodes[i].reset();
     consoleLog("new index: " + this.currentIndex);
 
-    if(this.currentIndex == 4){
+    if(this.currentIndex == 10){
         playVideo();
     }else{
         stopVideo();

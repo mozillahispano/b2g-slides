@@ -4,5 +4,5 @@
             document.querySelector("video").play();
           }
           function stopVideo(section) {
-            document.querySelector("video").stop();
+            document.querySelector("video").pause();
           }
